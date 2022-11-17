@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="time">
+            <Span class="content" id="hr">00</Span>
+            <span id="txt">hr</span>
+            <Span class="content"id="min">00</Span>
+            <span id="txt">min</span>
+            <Span class="content"id="sec">00</Span>
+            <span id="txt">sec</span>
+            <Span class="content" id="ms">00</Span>
+            <span id="txt">ms</span>
+        </div>
+        <div class="action">
+            <button class ="actionbtn" id="btn1" onclick="start()">Start</button>
+            <button class ="actionbtn" id="btn2" onclick="end()">Pause</button>
+            <button class ="actionbtn" id="btn3" onclick="restart()">Restart</button>
+        </div>
+        <span id="auther"><p>...by tarakeswar jana</p></span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

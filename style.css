@@ -1,0 +1,59 @@
+.container{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    
+   flex-direction: column;
+   gap: 50px;
+}
+.time{
+    margin-top: 30vh;
+    flex:1;
+}
+.action{
+    flex: 1;
+    
+}
+
+.content{
+    
+    font-size: 150px;
+    padding: 20px 40px 20px 40px;
+    margin: 10px;
+    background-color: aqua;
+    border-radius: 20px;
+}
+#txt{
+    font-size: 40px;
+    color:blueviolet
+
+}
+.actionbtn{
+    
+    padding: 10px 30px 10px 30px;
+    font-size: 45px;
+    margin :20px;
+    border-radius: 20px;
+    cursor: pointer;
+   
+}
+#btn1:hover{
+  
+    padding: 13px 33px 13px 35px;
+    background-color: green;
+}
+#btn2:hover{
+   
+    padding: 13px 33px 13px 35px;
+    background-color: rgb(128, 0, 81);
+}
+#btn3:hover{
+    
+    padding: 13px 33px 13px 35px;
+    background-color: rgb(128, 0, 0);
+}
+
+#auther{
+    padding-left: 1200px;
+    padding-top: 100px;
+}
